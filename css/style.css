@@ -11,10 +11,11 @@ html, body {
   margin: 0;
   height: 100%;
 }
+
 @font-face {
- font-family: "Neue Hass";
- src: url("/css/NeueHaasDisplay-Mediu.woff") format("woff"),
-        url("/css/NeueHaasDisplay-Mediu.woff") format("woff");
+    font-family: "Neue Hass";
+    src: url("/css/NeueHaasDisplay-Mediu.woff") format('truetype');
+
 }
 
 .bouton{
