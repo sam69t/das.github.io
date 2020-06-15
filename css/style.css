@@ -11,18 +11,17 @@ html, body {
   margin: 0;
   height: 100%;
 }
-
 @font-face {
-    font-family: "Neue Hass";
-    src: url("../css/NeueHaasDisplay-Mediu.woff") format('truetype');
-
+ font-family: "Neue Hass";
+ src: url("/css/NeueHaasDisplay-Mediu.woff") format("woff"),
+        url("/css/NeueHaasDisplay-Mediu.woff") format("woff");
 }
 
 .bouton{
   position: absolute;
   display: flex;
 
-  left:44%;
+  left:43%;
   background-color: black; /* Green */
    border: none;
    color: white;
@@ -55,7 +54,7 @@ body {
   justify-content: center;
   align-items: center;
   right:46.5%;
-  top:29%;
+  top:28%;
   position: absolute;
   z-index: 1;
 

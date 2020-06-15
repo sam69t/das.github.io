@@ -67,7 +67,7 @@
         </div>
       </div>
 <div class="lettre">
-  <span>  </span>
+  <span> A </span>
 </div>
 
 
@@ -125,7 +125,7 @@
 
     </section>
 </div>
-    <button id="screenshot" class="bouton"> Take ScreenShot </button>
+    <button class="bouton" onclick="screenshot()"> Take ScreenShot </button>
 
   </main>
   <script src='https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js'></script>
@@ -135,8 +135,11 @@
 
   <script>
 
-
-
+  function screenshot(){
+    html2canvas($("#test")[0]).then(function(canvas) {
+$("main-container").append(canvas);
+});
+}
 
   </script>
 
