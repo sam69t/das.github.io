@@ -13,8 +13,8 @@ html, body {
 }
 @font-face {
  font-family: "Neue Hass";
- src: url("/css/NeueHaasDisplay-Mediu.woff") format("woff"),
-        url("/css/NeueHaasDisplay-Mediu.woff") format("woff");
+ src: url("../css/NeueHaasDisplay-Mediu.woff") format("woff"),
+        url("../css/NeueHaasDisplay-Mediu.woff") format("woff");
 }
 
 .bouton{
